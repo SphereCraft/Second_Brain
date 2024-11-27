@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "54d6687b89bb9b96",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a051c80be48f940",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973184ebf1c5eab3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Containers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Containers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6696d6eb9487a918",
+    "type": "split",
+    "children": [
+      {
+        "id": "c85884ef1ffc57bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21935478316c8f7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "142e9aea67a5065f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "a6ca5620ca2bfd23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.01258087158203
+  },
+  "right": {
+    "id": "7d356b05c62d4b46",
+    "type": "split",
+    "children": [
+      {
+        "id": "11fe9eb8cea92b86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc280643459ba661",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "000_Zettelkasten/AWS CloudFormation Documentations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AWS CloudFormation Documentations"
+            }
+          },
+          {
+            "id": "957cecbaaccab8ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b957c0c8e180d361",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "43acdf1467250cf6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f22eb87f8d73c213",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f27b9e05bfcfa00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Containers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Containers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 441
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "973184ebf1c5eab3",
+  "lastOpenFiles": [
+    "000_Second_Brain/ALB.md",
+    "Containers.md",
+    "000_Second_Brain/Access_Control_Management.md",
+    "000_Zettelkasten/Create VPC in CDK.md",
+    "000_Zettelkasten/Create EC2 in CDK.md",
+    "000_Zettelkasten/New CDK Project.md",
+    "000_Zettelkasten/CDK init.md",
+    "000_Zettelkasten/CDK Constructs.md",
+    "000_Zettelkasten/VPC.md",
+    "000_Zettelkasten/Internet.md",
+    "000_Zettelkasten/CDK Stacks.md",
+    "000_Zettelkasten/Installing CDK.md",
+    "000_Zettelkasten/CDK.md",
+    "000_Zettelkasten/Typescript.md",
+    "000_Zettelkasten/JavaScript Functions.md",
+    "000_Zettelkasten/JavaScript While Loops.md",
+    "000_Zettelkasten/While Loops.md",
+    "000_Zettelkasten/JavaScript for loops.md",
+    "JavaScript If/Else Statement.md",
+    "000_Zettelkasten/JavaScript Data Types.md",
+    "JavaScript If",
+    "000_Zettelkasten/CICD.md",
+    "000_Zettelkasten/JavaScript Variables.md",
+    "000_Zettelkasten/Javascript.md",
+    "000_Zettelkasten/Functions.md",
+    "000_Zettelkasten/For Loops.md",
+    "000_Zettelkasten/Control Flow.md",
+    "CI",
+    "002_Files/week5.png",
+    "002_Files/week5 project.png",
+    "002_Files/week5 project.excalidraw",
+    "002_Files/cbb2ce2-47d0-4ed7-efdf-fb86a6a458_Screenshot_2024-03-05_at_22.webp",
+    "002_Files/3tierarch.png",
+    "002_Files/Ecommerces erverless.png",
+    "002_Files/serverless structure.png",
+    "002_Files/serverless.png",
+    "002_Files/Ecommerce basic design (mono).png",
+    "002_Files/AWS system design.png",
+    "002_Files/youtube design.png",
+    "002_Files/Untitled.canvas",
+    "004_Templates",
+    "003_Reference Notes",
+    "002_Files",
+    "000_Zettelkasten",
+    "002_Files/Excalidraw/Basic web app.excalidraw",
+    "Archive",
+    "3. Resources"
+  ]
+}
