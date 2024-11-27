@@ -1,3 +1,6 @@
+** This journey started in Obsidian, but I am converting the files to basic MD format and changing all the link so they work 
+in any place without needing a plugin. Might need to use these note in a remote location with only limited resources. **
+
 
 # My Obsidian Second Brain: A Cloud Engineering Journey
 
