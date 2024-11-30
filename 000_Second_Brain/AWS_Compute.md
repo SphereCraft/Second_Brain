@@ -9,7 +9,7 @@ Tags:
 Compute is the power of the system. In the cloud its the servers/virtual machines thats the backbone. They consume most of the time and money of the business when running applications.
 AWS Compute is a term for using AWS services to run websites or applications.
 
-Theses are the most popular services
+Theses are the most popular services  
 	Amazon [EC2](./EC2.md)  
 	[Lambda Function](./Lambda_Function.md)  
 	[Elastic Beanstalk](./Elastic_Beanstalk.md)  
