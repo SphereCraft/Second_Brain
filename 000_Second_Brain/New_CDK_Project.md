@@ -34,7 +34,7 @@ Interface describes the structure of an object.
   }
  here we have created a new bucketProps that follows MyBucketProps. We used this account to get the current AWS account number to ensure the bucket name is globally unique.
  Versioned and encryption have to add these too
- Then add a new [[S3]].bucket using the [[S3]] bucket construct. Then it creates 'MyFirstBucket'
+ Then add a new [S3](./S3.md).bucket using the [S3](./S3.md) bucket construct. Then it creates 'MyFirstBucket'
 
 
 

@@ -47,13 +47,7 @@ Tags:
     
 3. Verify the file was uploaded successfully by listing the contents of your bucket.
     
-
   
-  
-
-  
-  
-
 # 🚀 Project - AWS CLI - IAM User
 
 ##### [Week 2 - Git & Cloud Architecture](https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154646443)

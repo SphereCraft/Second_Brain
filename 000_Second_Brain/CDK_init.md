@@ -6,8 +6,9 @@ Tags:
 
 # CDK init
 
-We will create a [[New CDK Project]] to get used to doing this, So in a new folder of your choice, create a new folder called vpc-cdk-project - then cd into it.
-Initialise the [[CDK]] with [[Typescript]] language.
+We will create a [New CDK Project](./New_CDK_Project.md) to get used to doing this, So in a new folder of your choice,
+create a new folder called vpc-cdk-project - then cd into it.
+Initialise the [CDK](./CDK.md) with [Typescript](./Typescript.md) language.
 	cdk init app --language typescript
 
 To update
@@ -15,7 +16,7 @@ To update
 Go into the lib folder and open up the vpc-cdk file 
 Delete bottom comments
 Should have imports and export class generated for us.
-Delete 3rd line in imports and add the import for [[EC2]] config
+Delete 3rd line in imports and add the import for [EC2](./EC2.md) config
 
 
 
