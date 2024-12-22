@@ -8,13 +8,14 @@ Tags:
 
 What is CDK?
 
-The [AWS](./AWS.md) Cloud Development Kit is an open source software development framework for defining cloud [[IaC]] and provisioning it through [[AWS]] [[Cloudformation]].
+The [AWS](./AWS.md) Cloud Development Kit is an open source software development framework for defining cloud [IaC](./IaC.md) and provisioning it through
+[AWS](./AWS.md) [Cloudformation](./AWS_CloudFormation.md).
 
 Key features
 
-Can use multi different code languages  with CDK, [Python](./Python.md), [Terraform](./Terraform.md), [Javascript](./Javascript.md), [Typescript](./Typescript.md) etc
-It provides pre made modular pieces of code called constructs that we can use, modify and integrate to develop our infrastructure quickly.
-Way more efficient to use [Typescript](./Typescript.md) with CDK than with [IaC](./IaC.md) with [Terraform](./Terraform.md) 
+Can use multi different code languages  with CDK, [Python](./Python.md), [Terraform](./Terraform.md), [Javascript](./Javascript.md), 
+[Typescript](./Typescript.md) etc It provides pre made modular pieces of code called constructs that we can use, modify and integrate to develop our
+infrastructure quickly. Way more efficient to use [Typescript](./Typescript.md) with CDK than with [IaC](./IaC.md) with [Terraform](./Terraform.md) 
 and [Cloudformation](./AWS_CloudFormation.md).
 
 [AWS](./AWS.md) CDK Stacks
@@ -28,10 +29,6 @@ They can have stacks for different things
 	Application Servers
 So logically better.
 Stacks can also reference resources in other stacks to help build modular infrastructure.
-
-
-
-
 
 
 

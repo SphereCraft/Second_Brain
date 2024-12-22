@@ -6,13 +6,15 @@ Tags:
 
 # CDK Constructs
 
-Constructs are the fundamental  building block of [[CDK]] applications. They represent everything to create [[AWS]] applications.
+Constructs are the fundamental  building block of [CDK](./CDK.md) applications. They represent everything to create [AWS](./AWS.md) applications.
 There are three types of constructs
 	L1 Constructs
 	L2 Constructs
 	L3 Constructs
 
-L1 Constructs are the low level constructs that directly (1:1) represent all [[AWS]] resources in the [[Cloudformation]]. They offer full control, but require configuration. In this example we are using a cfn Bucket that corresponds every detail of what we want the bucket . this is like writing in [[Cloudformation]].
+L1 Constructs are the low level constructs that directly (1:1) represent all [AWS](./AWS.md) resources in the [Cloudformation](./CloudFormation_Template.md).
+They offer full control, but require configuration. In this example we are using a cfn Bucket that corresponds every detail of what we want the bucket.
+This is like writing in [Cloudformation](./CloudFormation_Template.md).
 
 L2 Constructs, these are higher level intent based constructs that provide sensible defaults for working with L1 constructs
 
@@ -76,10 +78,10 @@ export class L3BucketStack extends cdk.Stack {
     }
 }
 
-So we will now build a [[VPC]] in [[CDK]] using [[Typescript]].
-We will do what we have before, create the [[VPC]] with 2 [[AZ]]'s, each with 1 public [[Subnets]] and 1 private [[Subnets]]. By creating a private [[Subnets]], [[CDK]] will create the [[Internet Gateway]] for us. All this can be done with very little code, with thanks to [[CDK]]
-
-
+So we will now build a [VPC](./VPC.md) in [CDK](./CDK.md) using [Typescript](./Typescript.md).
+We will do what we have before, create the [VPC](./VPC.md) with 2 [AZ](./AZ.md)'s, each with 1 public [Subnets](./Subnets.md) and 1 private
+[Subnets](./Subnets.md). By creating a private [Subnets](./Subnets.md), [CDK](./CDK.md) will create the [Internet Gateway](./Internet_Gateway.md)
+for us. All this can be done with very little code, with thanks to [CDK](./CDK.md)
 
 
 
