@@ -7,15 +7,15 @@ Tags:
 # Tier Three Architecture
 
 
-![[threetier.png]]
-![[3tierarch.png]]
+![threetier.png](~/Documents/Second_Brain/002_Files/threetier.png)
+![3tierarch.png](~/Documents/Second_Brain/002_Files/3tierarch.png)
 this is the most common architecture used across the world. as the name suggests, its 3 tiers, as pic above, 
 - Presentation Tier - user interface layer. the tier that is interacted with, the tier that we see the content
 - Application Tier - functional processing logic layer/business tier. this tier has all the functional systems are processed
 - Database Tier - Data storage and access and the management module
 
 These 3 Tiers are maintained and developed as separate modules
-![[benifits 3 tier.png]]
+![benifits 3 tier.png](~/Documents/Second_Brain/002_Files/benifits_3_tier.png)
 As the other types of architecture, similar benefits
 
 

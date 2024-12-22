@@ -1,10 +1,19 @@
-{{date:DD/MM/YYYY}} {{time:HHmm}}
+# Notes / Work - {{DATE}}
 
-Status #idea
+### 📅 Date: {{DATE}}
+### 🕒 Time: {{TIME}}
 
-Tags:
+# Title  
+## Overview
+> [Enter your work, notes, or other content here]
 
-# {{Title}}
 
 
-# References
+
+
+
+---
+
+## References
+- [Reference 1](#)
+- [Reference 2](#)

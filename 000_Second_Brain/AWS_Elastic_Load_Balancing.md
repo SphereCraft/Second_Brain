@@ -7,14 +7,14 @@ Tags:
 # AWS Elastic Load Balancing
 
 This is a service designed to automatically distribute across multiple targets, such as
-	[[EC2]] Instances
-	[[Containers]]
-	[[IP Address]]
-Types of [[Load Balancing]]
+	[EC2](./EC2.md) Instances
+	[Containers](./Containers)
+	[IP Address](./IP_Address.md)
+Types of [Load Balancing(./Load_Balancing.md)]
 
-[[ALB]] - Application Load Balancer
-[[NLB]] - Network Load Balancer
-[[CLB]] - Classic Load Balancer
+[ALB](./ALB.md) - Application Load Balancer
+[NLB](./NLB.md) - Network Load Balancer
+[CLB](./CLB.md) - Classic Load Balancer
 
 
 # References

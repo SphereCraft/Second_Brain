@@ -20,7 +20,7 @@ Consistency and standardisation
 Collaboration and  [Version Control(./Version_Control.md)]
 	this allows teams to work together and easier to track changes
 Efficient Management
-	CloudFormations can make templates to help with consistant reproduction of code.
+	CloudFormations can make templates to help with consistent reproduction of code.
 CloudFormation template is a simple text file in either
 	[JSON]
 	or [YAML]
