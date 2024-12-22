@@ -6,7 +6,7 @@ Tags:
 
 # Back End
 
-back end is all the tech behind. Ie [[server]], Database
-Database could be [[RDS]]
+back end is all the tech behind. IE [server](./Server.md), Database
+Database could be [RDS](./RDS.md)
 
 # References

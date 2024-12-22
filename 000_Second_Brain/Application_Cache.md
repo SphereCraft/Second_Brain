@@ -13,4 +13,8 @@ Caching this data can enhance the user experience by making applications more re
 **Application code** or
 **Using an external caching system**
 this can help with greater scalability.
+
+
+
+
 # References

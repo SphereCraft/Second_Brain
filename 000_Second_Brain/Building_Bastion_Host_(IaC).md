@@ -43,7 +43,7 @@ it should now show that is it's been copied over
 Log back into the bastionhost again
 ssh -i bastion.pem ec2-user{IP Address}
 Run ls to see if anything is in the bastionhost root
-This file will be used to Auth into our [[EC2]] [[Server]] in the AppSubnet that we will create when we ping from one to the other, as before.
+This file will be used to Auth into our [EC2](./EC2.md) [Server](./Server.md)in the AppSubnet that we will create when we ping from one to the other, as before.
 
 
 

@@ -6,7 +6,8 @@ Tags:
 
 # Block Storage
 
-Block storage splits the data in to uniform blocks of data each with its own unique identifier which is then stored in a [[SAN]]. These blocks can be combined together to form larger Blocks when needed for higher input/output demands.
+Block storage splits the data in to uniform blocks of data each with its own unique identifier which is then stored in a [SAN](./SAN.md).
+These blocks can be combined together to form larger Blocks when needed for higher input/output demands.
 
 Best use of Block Storage 
 - When there is a need for high input/output of databases and transactional data.
@@ -18,14 +19,14 @@ Best use of Block Storage
 - Low latency
 - control of storage - each block can be controlled like an individual hard drive
 
-#### Disadvatages
--  More expensive than [[File Storage]] or [[object storage]]
+#### Disadvantages
+-  More expensive than [File Storage](./File_Storage.md) or [object storage](./Object_Storage.md)
 - Less scalable when looking at capacity and management
 - requires more management and overhead to scale out
 
 ##### example
-AWS - Amazon [[EBS]]
+AWS - Amazon [EBS](./EBS.md)
 
 # References
 
-https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154687876/posts/2174972391
+[cloud-academy-tech-with-soleyman](https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154687876/posts/2174972391)
