@@ -8,8 +8,8 @@ Tags:
 
 Classic Load Balancer
 
-Best for applications built within the EC2-Classic Network. It operates at both the connection and request level. CLB gives [[Load Balancing]] across many EC2 instances.
-[[AWS]] in in phase to close down CLB, so wont be able to use it soon.
+Best for applications built within the EC2-Classic Network. It operates at both the connection and request level. CLB gives [Load Balancing](./Load_Balancing.md)
+across many EC2 instances. [AWS](./AWS.md) in in phase to close down CLB, so wont be able to use it soon.
 
 
 # References

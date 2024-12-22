@@ -8,8 +8,10 @@ Tags:
 
 **4 main components**
 Network, Front End, Back end, Cloud
+
 **Layers**
 application and services, virtualisation, hardware
+
 **Importance**
 Scalability
 Secure
@@ -20,4 +22,6 @@ both cloud architect and cloud engineer need to understand these important desig
 Cloud architect designs the system
 Cloud engineer builds it
 sometimes the cloud engineer does it all, that's the aim here!
+
+
 # References

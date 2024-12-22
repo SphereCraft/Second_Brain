@@ -20,14 +20,15 @@ Setting up a Windows machine for cloud development involves installing tools and
     
     - Right-click the Start button, select "Windows PowerShell (Admin)" or "Terminal (Admin)."
         
-2. ****Install Chocolatey****: Copy and paste the following command into PowerShell and press Enter `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+2. ****Install Chocolatey****: Copy and paste the following command into PowerShell and press Enter 
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
     
 
 ### 2. Installing Development Tools
 
 #### Install Visual Studio Code
 
-- ****Using Chocolatey****:
+    - ****Using Chocolatey****:
     
     - In the same PowerShell window (as admin), run:
         
@@ -52,7 +53,8 @@ Setting up a Windows machine for cloud development involves installing tools and
 
 ##### [Week 1 - Cloud Fundamentals](https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154193244)
 
-If you're new to macOS, it's important to know that when you download an application file, you must drag it to the Applications folder. This is especially important for text editors that you may need to write code in.
+If you're new to macOS, it's important to know that when you download an application file, you must drag it to the Applications folder. 
+This is especially important for text editors that you may need to write code in.
 
 You'll also be installing a lot of things using the terminal. It may feel like you're a hacker, but there are two important points to keep in mind:
 
@@ -67,4 +69,6 @@ Please work through these in order and make sure each step is successful before 
 2. Home Brew Package Manager
     
 3. Visual Studio Code
+
+
 # References

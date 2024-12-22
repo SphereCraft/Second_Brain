@@ -8,15 +8,15 @@ Tags:
 
 We will be using the last example but will be doing it all in code. need to make sure a few things are set up first.
 Should all ready have done 
-	[[AWS CLI Set up and config]]
-	[[VSCode]]
-	Configured [[AWS CLI Set up and config]] with the accesses keys
-Next go to github and make a new code repository and call it JeffCloudFormation
+	[AWS CLI Set up and config](./AWS_CLI_Setup_and_config.md)
+	[Vs Code](./Visual_Studio.md)
+	Configured [AWS CLI Set up and config](./AWS_CLI_Setup_and_config.md) with the accesses keys
+Next go to GitHub and make a new code repository and call it JeffCloudFormation
 clone it to local machine.
-Go to desired [[IED]]
+Go to desired [IED](./ied.md)
 get in correct directory
 create  new file called s3-bucket.yaml
-This needs to be inside of the github repo that was just created.
+This needs to be inside of the GitHub repo that was just created.
 At the start of all templates there are 2 things 
 	CloudFormationTemopoVersion
 	description
@@ -27,27 +27,27 @@ Resources: (this defines what resources in stack)
 		Type: 'AWS::S3::Bucket' - most are defined like this
 		Properties: - define config of s3-bucket
 			BucketName: (Global unique name like 'jeff-s3-bucket.yaml') - across all accounts
-To deploy to [[AWS]]
+To deploy to [AWS](./AWS.md)
 	first save it
 	then either,
 		use terminal
-		or the terminal in VScode
+		or the terminal in VS code
 	run
-		aws cloudformation create-stack --stack-name my-s3-bucket-stack --template-body file://s3-bucket.yaml (this is the file name created for the template at the start)
+		aws CloudFormation create-stack --stack-name my-s3-bucket-stack --template-body file://s3-bucket.yaml (this is the file name created for the template at the start)
 	Should now see stack being created
 	To check progress
-		aws cloudformation describe-stacks --stack-name my-s3-bucket-stack
+		aws CloudFormation describe-stacks --stack-name my-s3-bucket-stack
 	If get an error go to the dashboard to view what the issue was then debug
-Go to the cloudformation dashboard, should see the created bucket with error, click on it and should see why, fix.
+Go to the CloudFormation dashboard, should see the created bucket with error, click on it and should see why, fix.
 delete stack before trying again, either 
 	in the console
-	or terminal aws cloudformation delete-stack --stack-name my-s3-bucket-stack
+	or terminal aws CloudFormation delete-stack --stack-name my-s3-bucket-stack
 run describe to check
 try again with same create stack command
 when says create complete it should be done.
 check in the dashboard
 
-Creating a [[VPC]] in code
+Creating a [VPC](./VPC.md) in code
 same process except code slightly different
 New File called vpc.yaml
 
@@ -55,7 +55,7 @@ AWSTemplateFormatVersion '2010-09-09'
 Description: 'CloudFormation for VPC'
 Resources:
 	MyVPC:
-	Type: 'AWS::EC2::VPC' - similar but slightly different for a [[VPC]]
+	Type: 'AWS::EC2::VPC' - similar but slightly different for a [VPC](./VPC.md)
 	Properties:
 		CidrBlock: '172.16.0.0/16'
 		EnableDnsSupport: true

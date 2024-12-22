@@ -17,9 +17,9 @@ How Data is stored can effect how an app works.
 3 Main storage options
 Each storage options has its own characteristics and use cases
 
-- [[File Storage]]
-- [[Block Storage]]
-- [[Object Storage]]
+- [File Storage](./File_Storage.md)
+- [Block Storage](./Block_Storage.md)
+- [Object Storage](./Object_Storage.md)
 
 Each type has its own benefits depending on things like
 - Application requirements
@@ -35,4 +35,5 @@ Each type of option is designed for different needs with the considerations of
 
 # References
 
-https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154687876/posts/2174972391
+[cloud-academy-tech-with-soleyman](https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154687876/posts/2174972391)
+
