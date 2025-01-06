@@ -6,8 +6,11 @@ Tags:
 
 # Content Delivery Networks Cache
 
-A series of servers working together and using geographic based cache to reduce travel time of the data retrieval for the user helping to improve website loading times and reducing bandwidth costs.
+A series of servers working together and using geographic based cache to reduce travel time of the data retrieval 
+for the user helping to improve website loading times and reducing bandwidth costs.
 
 **Amazon example**
-Amazon [[Cloud Front]]
+Amazon [Cloud Front](./Cloud_Front.md)
+
+
 # References

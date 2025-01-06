@@ -30,7 +30,7 @@ export class CdkProjectStack extends cdk.Stack {
         new s3.Bucket(this, 'MyFirstBucket', bucketProps)
   }
 }
-This is declaring a new S3 Bucket with [Typescript](./Typescript.md) and [CDK](./CDK.md)
+This is declaring a new S3 Bucket with [Typescript](/home/jeff/Documents/Second_Brain/000_Second_Brain/Typescript.md) and [CDK](/home/jeff/Documents/Second_Brain/000_Second_Brain/cdk.md)
 
 Import - imports the modules to add [CDK](./CDK.md) and [S3](./S3.md)
 Export - defines a new class 'myStack' that represents a [CloudFormation Template](./CloudFormation_Template.md)

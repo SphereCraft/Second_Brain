@@ -14,5 +14,7 @@ Connecting to the EC2 instance is a simple process
 	5. Connect
 
 AWS Linux should now be connecting. 
-List of [[Linux commands]] here
+List of [Linux commands](./Linux_commands.md) here
+
+
 # References

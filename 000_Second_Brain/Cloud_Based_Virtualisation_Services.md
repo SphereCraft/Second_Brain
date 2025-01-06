@@ -10,7 +10,7 @@ There are 3 main cloud based virtualisation service companies
 
 AWS - Amazon Web Services
 Microsoft Azure
-Google cloud platform (GCP)
+Google cloud platform (G]P)
 some of the services offered are server less computing, virtual networks and scalable storage
 Understanding virtualisation is essential for navigating and leveraging the vast potential of cloud technologies effectively.
 

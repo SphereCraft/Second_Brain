@@ -10,7 +10,8 @@ Tags:
 
 ##### [Week 1 - Cloud Fundamentals](https://cloudengineeracademy.mykajabi.com/products/cloud-academy-tech-with-soleyman/categories/2154193244)
 
-Setting up a Windows machine for cloud development involves installing tools and software that will enable you to code, build, test, and deploy applications. Below is a guide to get you started, including package managers, code editors, and other essential tools.
+Setting up a Windows machine for cloud development involves installing tools and software that will enable you to code, build, test, and deploy
+applications. Below is a guide to get you started, including package managers, code editors, and other essential tools.
 
 ### 1. Setting Up a Package Manager
 
@@ -58,9 +59,11 @@ This is especially important for text editors that you may need to write code in
 
 You'll also be installing a lot of things using the terminal. It may feel like you're a hacker, but there are two important points to keep in mind:
 
-1. When using the terminal, "no news is good news." This means that you usually only receive feedback when something goes wrong. Success messages are nice, but don't expect them at the command line.
+1. When using the terminal, "no news is good news." This means that you usually only receive feedback when something goes wrong. Success messages are 
+nice, but don't expect them at the command line.
 
-2. When installing things in the terminal, a lot of text appears. It's important to pay attention to this text because if something goes wrong, useful error messages will be displayed for you to copy and paste when seeking help. Additionally, further instructions may appear, which you'll need to follow.
+2. When installing things in the terminal, a lot of text appears. It's important to pay attention to this text because if something goes wrong,
+useful error messages will be displayed for you to copy and paste when seeking help. Additionally, further instructions may appear, which you'll need to follow.
 
 Please work through these in order and make sure each step is successful before progressing to a subsequent step:
 

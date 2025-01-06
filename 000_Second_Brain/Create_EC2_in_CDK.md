@@ -6,7 +6,7 @@ Tags:
 
 # Create EC2 in CDK
 
-Now to build an [[EC2]] in [[CDK]].
+Now to build an [EC2](./EC2.md) in [CDK](./CDK.md).
 Inside the lib folder, create a new file and call it ec2-stack.ts
 
 Copy and paste the import properties from the vpc-stack file
@@ -17,15 +17,18 @@ import { Construct } from 'constructs';
 import * as ec2 from 'aws-cdk-lib/aws-ec2'
 
 // -----Props-----
+
 interface EC2StackProps extends cdk.StackProps {
     vpc: ec2.Vpc;
 }
 
 
-This creates a custom interface that extends the basic [[EC2]] properties, it adds a required property of [[EC2]]. This lets us pass our [[VPC]] from our [[VPC]] stack.
-Then our [[EC2]] declaration as normal.
+This creates a custom interface that extends the basic [[EC2]] properties, it adds a required property of
+[EC2](./EC2.md). This lets us pass our [[VPC]] from our [[VPC]] stack.
+Then our [EC2](./EC2.md) declaration as normal.
 
-Then the [[EC2]] declaration as normal
+Then the [EC2](./EC2.md) declaration as normal
+
 export class EC2Stack extends cdk.Stack {
     constructor (scope: Construct, id: string, props: EC2StackProps,) {
         super(scope, id, props);
@@ -44,6 +47,7 @@ export class EC2Stack extends cdk.Stack {
         })
         cdk.Tags.of(instance).add('Name', 'MyPrivateEC2')
 Now we need to update the main app file in the bin folder - vpc-cdk-project.ts
+
 Clear the comments
 add 
 import { EC2Stack } from '../lib/ec2-stack';
@@ -57,7 +61,7 @@ new EC2Stack(app, 'MyEC2Stack', {
     vpc: vpcStack.vpc
 })
 
-need to make sure the [[VPC]] can be read by adding under export in the lib/vpc-cdk-project-stack.ts file
+need to make sure the [VPC](./VPC.md) can be read by adding under export in the lib/vpc-cdk-project-stack.ts file
 
 public readonly vpc:ec2.vpc
 then change const to this. 
@@ -66,11 +70,6 @@ app.synth()
 
 should be able to deploy all, but debug any issues first, like syntax error or bad referencing etc
 once deployed, verify in the console.
-
-
-
-
-
 
 
 

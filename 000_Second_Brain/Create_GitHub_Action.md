@@ -6,12 +6,18 @@ Tags:
 
 # Create GitHub Action
 
-To create a github action, first need to create a repository - this example we call it github_actions_workflow. check the box to add the README.md file and make it public (doesn't matter). 
+To create a github action, first need to create a repository - this example we call it github_actions_workflow.
+check the box to add the README.md file and make it public (doesn't matter).
+
 Clone the repo.
+
 In VSCode create new folder for the repo, in that folder (in terminal) run
+
 	git clone paste in the copied ssh from the repo
-In the now newly made folder create another folder called .github/workflow (all workflows must be in this folder to work), and then create a file called main.yaml (all workflows are created in yaml)
-First thing is to create a name for the action in the file and for it to respond when we push.
+
+In the now newly made folder create another folder called .github/workflow (all workflows must be in this folder to work), 
+and then create a file called main.yaml (all workflows are created in yaml). First thing is to create a name for the action
+in the file and for it to respond when we push.
 
 name: My Github Actions Workflow
 on: [push]
@@ -39,15 +45,18 @@ git push
 
 now in the repo in github, go to the actions tab and should see the workflow job, go in to it and will see the steps we created, click each one and will see what we asked of it. This is a very simple action, but can see how it all works and the possibilities.
 
-We are going to now create a workflow for a [[Lambda Function]]. As engineers we need to have things set up automatically to avoid and manual intervention/deployment.
-So we will create a CI/CD workflow that gets triggered every time we push changes to a [[Lambda Function]].
-In this example we will set up the [[Lambda Function]] in the console to speed things up
+We are going to now create a workflow for a [Lambda Function](./Lambda_Function.md). As engineers we need to have things set up
+automatically to avoid and manual intervention/deployment.
+So we will create a CI/CD workflow that gets triggered every time we push changes to a [Lambda Function](./Lambda_Function.md)
+In this example we will set up the [Lambda Function](./Lambda_Function.md) in the console to speed things up
 
-Into [[AWS]] [[IAM]] to get credentials/access keys. If you have lost the secret access key, then will need to create new, then copy new details ready for later.
+Into [AWS](./AWS.md) [IAM](./IAM.md) to get credentials/access keys. If you have lost the secret access key,
+then will need to create new, then copy new details ready for later.
+
 In the terminal make sure the keys are set up
 aws configure - add the details as required
 To validate
-aws s3 ls - this should list the [[S3]]'s that you already have.
+aws s3 ls - this should list the [S3](./S3.md)'s that you already have.
 aws iam list-access-keys     -  this will show keys, but not the secret key, if lost create new.
 In github to create a new repository and add these keys
 new repo - call it lambda-cicd
@@ -62,11 +71,14 @@ settings - secrets and variables - actions
 	add secret key
 		name AWS_SECRET_ACCESS_KEY
 		paste
-These will allow github to access [[AWS]] without exposing our credentials. But best practice is to never add secrets or passwords in our coding repo.
 
-Set up a [[Lambda Function]] in the console to save time
+These will allow github to access [AWS](./AWS.md) without exposing our credentials. But best practice is to never add 
+secrets or passwords in our coding repo.
+
+Set up a [Lambda Function](./Lambda_Function.md) in the console to save time
 
 Create function
+
 	name my-test-cicd-lambda
 Runtime - Python 3.12
 make sure create new role with basic is checked
@@ -74,7 +86,8 @@ create function - want to be done
 Then in code 
 	test - event name - test CICD
 This shouldn't work, so will need to change text. Deploy, and test again
-Go to the [[Git]] hub and clone the new repo, then into your text editor (yes I've stopped using VS Code to learn [[Neo-vim]], yes another learning curve, but one i feel will benefit me in the long run) to build the CI/CD workflow.
+Go to the [Git](/home/jeff/Documents/Second_Brain/000_Second_Brain/Git.md) hub and clone the new repo, then into your text editor (yes I've stopped using VS Code to learn
+[Neo-vim](./neovim.md), yes another learning curve, but one i feel will benefit me in the long run) to build the CI/CD workflow.
 New folder in the repo
 	mkdir (in terminal) lambda
 	cd into it and create a file called lambda_function.py
@@ -91,8 +104,11 @@ def lambda_handler(event, context):
     }
 Now create a file in the same folder called requirements.txt
 '# this file is empty'
-Best practice is to include a requirements.txt file even if its a small basic workflow. the file would normally list all the python that the lambda would require.
-Now create our github actions workflow. In the root folder (ie lambda-cicd) make a new folder called .github/workflows (if doing this in the terminal would need to make 2 directories or use the -p to create both in same command, mkdir -p .github/workflows), then inside the workflows directory create a file called lambda-deply.yaml (can also use yml, but keep it consistent). so touch 'name of file'. This is where we will design our workflow
+Best practice is to include a requirements.txt file even if its a small basic workflow. the file would normally list all
+the python that the lambda would require. Now create our github actions workflow. In the root folder (ie lambda-cicd) 
+make a new folder called .github/workflows (if doing this in the terminal would need to make 2 directories or use the -p 
+to create both in same command, mkdir -p .github/workflows), then inside the workflows directory create a file called 
+lambda-deply.yaml (can also use yml, but keep it consistent). so touch 'name of file'. This is where we will design our workflow
 
 name: Deploy AWS Lambda
 
@@ -137,8 +153,8 @@ So any time something is pushed in our main and anything in our lambda directory
 	set and specify the runner (ubuntu)
 	set our python environment
 	install any packages or dependencies needed
-	validate our [[AWS]] credentials 
-	then zip the file and deploy into our [[Lambda Function]] in [[AWS]].
+	validate our [AWS](./AWS.md) credentials 
+	then zip the file and deploy into our [Lambda Function](./Lambda_Function.md) in [AWS](./AWS.md)
 
 git status to see if anything needs pushing to repository
 cd back to root
@@ -156,14 +172,15 @@ git push origin main
 Go into the repository then actions, the way he showed us, i noticed a few mistakes, so check code for mistakes and correct/debug. he renamed the file to just lambda.py (i did the same). Push again with a new message to make the code work.
 Now in the console and check the actions tab and see if the action has worked. Should see a message.
 Never forget to follow best security practices, rotate access keys, never add passwords directly in the code.
-Next we will do a pull workflow actions,  this will be a PR event - CICD for [[Cloudformation]] test stacks (PR - [[Pull Request]])
+Next we will do a pull workflow actions,  this will be a PR event - CICD for [Cloudformation](./CloudFormation_Template.md)
+test stacks (PR - [Pull Request](./Pull_Request.md))
 It will do
 	runner
 	configurations
 	validate
 	deploy test s3 bucket
 	comment to say it looks good
-Proceed to [[Pull Request]]
+Proceed to [Pull Request](./Pull_Request.md)
 
 
 

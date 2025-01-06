@@ -7,10 +7,10 @@ Tags:
 # ALB
 
 Application Load Balancer is best for HTTP/HTTPS traffic offering
-Request routing for modern Application Architectures for microservices and [Containers]. ALB can support
+Request routing for modern Application Architectures for micro services and [Containers]. ALB can support
 	Path-based routing
 	Host-based routing
-	Route requests to multiple services or [Load Balancing](./Load_Balancing.md)
+	Route requests to multiple services or [Load Balancing](/home/jeff/Documents/Second_Brain/000_Second_Brain/Load_Balancing.md``)
 
 
 Ideal for

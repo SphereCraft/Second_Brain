@@ -22,11 +22,11 @@ An AMI is specific to the following:
     
 - Root device type
     
-- Virtualization type
+- Virtualisation type
     
 
 You can launch multiple instances from a single AMI when you require multiple instances with the same configuration.
-You can use different AMIs to launch instances when you require instances with different configurations, as shown in
+You can use different AMI's to launch instances when you require instances with different configurations, as shown in
 the following diagram.
 
 ![Launch multiple instances from an AMI.](https://docs.aws.amazon.com/images/AWSEC2/latest/UserGuide/images/launch-from-ami.png)
