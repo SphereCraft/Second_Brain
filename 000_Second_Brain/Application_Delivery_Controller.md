@@ -12,9 +12,9 @@ of applications delivered over the web.
 ##### How does an application delivery controller work?
 
 An application delivery controller employs algorithms and policies to determine how inbound application traffic is distributed. Round robin, 
-which forwards client requests to each server in turn, is a fairly rudimentary form of [load balancing](./Load_Balancing.md). This method assumes all servers
-are the same: It does not take into account health or responsiveness. An administrator can implement additional policies that direct an ADC
-to check for a number of criteria before determining to which server an inbound request should be sent. The application delivery controller
+which forwards client requests to each server in turn, is a fairly rudimentary form of [load balancing](~/Documents/Second_Brain/000_Second_Brain/Load_Balancing.md).
+This method assumes all servers are the same: It does not take into account health or responsiveness. An administrator can implement additional 
+policies that direct an ADC to check for a number of criteria before determining to which server an inbound request should be sent. The application delivery controller
 can inspect packet headers for keywords or requested file types and direct the request to the appropriate server based on this information.
 
 Application delivery controllers are also heavily relied upon for their monitoring capabilities. They can check a server’s health and operability

@@ -6,13 +6,14 @@ Tags:
 
 # Auto Scaling
 
-Auto Scaling is a service provided by [AWS](./AWS.md) to automatically adjust the number of compute instances in deployment based on real-time
-data. It can dynamically increase or decrease as needed automatically. Auto Scaling can help with cost saving by only using whats needed when 
-its needed, insuring you only pay for what you need/use. Improved Fault tolerances will ensure your application will operate even if other
-instances fail maintaining a pre-defined number replacing unhealthy instances. Seamless handling of varying load levels will auto scale with
-demand of traffic without and manual intervention.
+Auto Scaling is a service provided by [AWS](~/Documents/Second_Brain/000_Second_Brain/AWS.md) to automatically adjust the number of compute
+instances in deployment based on real-time data. It can dynamically increase or decrease as needed automatically. Auto Scaling can help with 
+cost saving by only using whats needed when its needed, insuring you only pay for what you need/use. Improved Fault tolerances will ensure 
+your application will operate even if other instances fail maintaining a pre-defined number replacing unhealthy instances. Seamless handling
+of varying load levels will auto scale with demand of traffic without and manual intervention.
 
-Using auto scaling with [Load Balancing](./Load_Balancing.md) will keep things running smoothly in both performance and availability. 
+Using auto scaling with [Load Balancing](~/Documents/Second_Brain/000_Second_Brain/Load_Balancing.md) will keep things running smoothly in both
+performance and availability. 
 
 
 # References

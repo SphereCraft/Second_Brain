@@ -10,13 +10,14 @@ Compute is the power of the system. In the cloud its the servers/virtual machine
 AWS Compute is a term for using AWS services to run websites or applications.
 
 Theses are the most popular services  
-	Amazon [EC2](./EC2.md)  
-	[Lambda Function](./Lambda_Function.md)  
-	[Elastic Beanstalk](./Elastic_Beanstalk.md)  
+	Amazon [EC2](~/Documents/Second_Brain/000_Second_Brain/EC2.md)  
+	[Lambda Function](~/Documents/Second_Brain/000_Second_Brain/Lambda_Function.md)  
+	[Elastic Beanstalk](~/Documents/Second_Brain/000_Second_Brain/Elastic_Beanstalk.md)  
 	[ECS]  
 
-[Lambda Function](./Lambda_Function.md) will give more hands-off approach, while [Elastic Beanstalk](./Elastic_Beanstalk.md)
-gives more control, it also runs [EC2](./EC2.md)'s under the hood.
+[Lambda Function](~/Documents/Second_Brain/000_Second_Brain/Lambda_Function.md) will give more hands-off approach, 
+while [Elastic Beanstalk](~/Documents/Second_Brain/000_Second_Brain/Elastic_Beanstalk.md)
+gives more control, it also runs [EC2](~/Documents/Second_Brain/000_Second_Brain/EC2.md)'s under the hood.
 AWS Compute offers a range of services to suit different computing needs for businesses.
 
 # References
